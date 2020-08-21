@@ -4,7 +4,7 @@
 
 #### Fixed
 - Parse error with prefix increment array dereference expressions which caused false undefined variable errors.
-- Intellisense fails when '@return self` used for interface methods.
+- Intellisense fails when `@return self` used for interface methods.
 - Formatting errors with goto labels.
 - Signature diagnostics incorrectly checking against base annotated methods.
 - Crash when using reference array destructure eg `[&$var] = [$num];`.
